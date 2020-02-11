@@ -67,15 +67,9 @@ Running a plan job parses the Terraform configuration (.zip) file and converts i
 
 3. The new plan job is listed under **Jobs**, with an initial state of **Accepted**. Soon the status changes to **In Progress**.
 
-![](./images/plan-in-progress.png)
-
 4. When the plan job is successful, the status will change to **Succeeded**.
 
-![](./images/plan-job-succeeded.png)
-
 5. Scroll to the bottom of the plan log and verify there are no errors, and the plan indicates the resources will be added.
-
-![](./images/plan-job-verify-log.png)
 
 ### STEP 4 : Run an Apply Job
 
@@ -83,11 +77,7 @@ When you run an apply job for a Stack, Terraform creates the resources and execu
 
 1. Browse to the **Stack Details** page by clicking the link from the breadcrumbs as follows :
 
-![](./images/job-details-stack-breadcrumb.png)
-
 2. Go to **Terraform Actions** and select **Apply**.
-
-![](./images/plan-apply.png)
 
 3. In the **Apply** dialog, review the apply job **Name** and ensure the **Apply Job Plan Resolution** is set to **Automatically Approve**.
 
@@ -95,23 +85,13 @@ When you run an apply job for a Stack, Terraform creates the resources and execu
 
 4. Click **Apply**.
 
-![](./images/apply-job.png)
-
 5. The new apply job gets **Accepted** status.
-
-![](./images/apply-accepted.png)
 
 6. The apply job status will quickly change to **In Progress**.
 
-![](./images/apply-in-progress.png)
-
 7. The job will take a few minutes to complete and will change status to **Succeeded** when successfully completed.
 
-![](./images/apply-job-succeeded.png)
-
 8. Verify the apply log by scrolling down to the **log** section and validate the resource creation was successful.
-
-![](./images/apply-job-verify-log.png)
 
 ## Option 2: Provision using Terraform CLI [WIP ...]
 
