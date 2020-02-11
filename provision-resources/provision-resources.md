@@ -1,5 +1,7 @@
 # Provision Cloud Resources
 
+## Introduction
+
 You may use one of the following methods to deploy the cloud resources for this scenario.
 
 ## Option 1 : Provision Cloud Resources Using Resource Manager

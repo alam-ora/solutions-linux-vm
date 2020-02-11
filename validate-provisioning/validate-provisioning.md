@@ -68,7 +68,7 @@ $ ssh –i <private_key> opc@<public-ip-address>
 
 5. In the **Category** pane, expand **Connection**, expand **SSH**, and then click **Auth**.
 
-6. Click **Browse**, and then select your private key in **PPK** format (Use **PuttyGen** to convert the private key to PPK format)
+6. Click **Browse**, and then select your private key in **PPK** format (Use **PuttyGen** to convert the private key to PPK format).
 
 7. Click **Open** to start the session.
 
