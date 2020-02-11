@@ -95,7 +95,7 @@ When you run an apply job for a Stack, Terraform creates the resources and execu
 
 8. Verify the apply log by scrolling down to the **log** section and validate the resource creation was successful.
 
-## Option 2: Provision using Terraform CLI [WIP ...]
+## Option 2: Provision using Terraform CLI
 
 [WIP ..]
 

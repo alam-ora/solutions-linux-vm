@@ -25,7 +25,7 @@ You connect to a running instance by using a Secure Shell (SSH) connection. Most
 
 ![](./images/vm-public-ip.png)
 
-**Connecting From a Unix-style System**
+**Connecting From a Unix\-style System**
 
 1. Locate the SSH private key of the pair used for the VM (The public key of the pair was specified at Stack creation time).
 
@@ -34,7 +34,7 @@ You connect to a running instance by using a Secure Shell (SSH) connection. Most
 ```
 $ chmod 400 <private_key>
 ```
->Where **\<private_key\>** is the full path and name of the file that contains the private key associated with the instance.
+>Where **private_key** is the full path and name of the file that contains the private key associated with the instance.
 
 3. Use the following SSH command to access the instance.
 
@@ -42,7 +42,7 @@ $ chmod 400 <private_key>
 $ ssh –i <private_key> opc@<public-ip-address>
 ```
 
->Where **\<public-ip-address\>** is your instance IP address that you retrieved from the Console.
+>Where **public-ip-address** is your instance IP address that you retrieved from the Console.
 >
 >Also, If this is your first time connecting to the instance, you might see a message that the server's host key is not cached in the registry. Click Yes to continue the connection.
 
