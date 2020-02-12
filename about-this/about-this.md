@@ -44,8 +44,5 @@ Before you begin creating resources in Oracle Cloud Infrastructure, ensure that 
 
 ## Steps
 
-Use the menu on the right to run the steps.
-
-- **Before You Begin**
-- **Provision Resources**
-- **Validate Provisioning**
+- [Provision Resources](?lab=provision-resources)
+- [Validate Provisioning](?lab=validate-provisioning)
